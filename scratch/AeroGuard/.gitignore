@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Datasets (Do not commit large raw C-MAPSS data files to git)
+data/*.txt
+data/*.csv
+data/*.zip
+!data/README.md
+
+# Trained models and large cache
+models/*.joblib
+models/*.pkl
+models/*.json
+!models/.gitkeep
+
+# Outputs
+outputs/plots/*.png
+outputs/plots/*.html
+outputs/reports/*.csv
+outputs/reports/*.json
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS specific
+.DS_Store
+Thumbs.db
